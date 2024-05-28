@@ -25,13 +25,13 @@
 $$
 \frac{\partial loss}{\partial w} = \frac{\partial}{\partial w}\frac{1}{N}\sum_{i=1}^N(y_i-\hat{y_i})^2
 \\ = \frac{\partial}{\partial w}\frac{1}{N}\sum_{i=1}^N(y_i-w{x_i}-b)^2
-\\= -\frac{1}{N}\sum_{i=1}^N-2(y_i-w{x_i}-b)x_i
+\\ = -\frac{1}{N}\sum_{i=1}^N-2(y_i-w{x_i}-b)x_i
 $$
 
 $$
 \frac{\partial loss}{\partial b} = \frac{\partial}{\partial b}\frac{1}{N}\sum_{i=1}^N(y_i-\hat{y_i})^2
 \\ = \frac{\partial}{\partial b}\frac{1}{N}\sum_{i=1}^N(y_i-w{x_i}-b)^2
-\\= -\frac{1}{N}\sum_{i=1}^N-2(y_i-w{x_i}-b)
+\\ = -\frac{1}{N}\sum_{i=1}^N-2(y_i-w{x_i}-b)
 $$
 
 $$
